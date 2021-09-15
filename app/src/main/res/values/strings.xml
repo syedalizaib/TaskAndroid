@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Task Android</string>
+    <string name="incoming">Incoming</string>
+    <string name="exit_toast">Tap again to exit</string>
+    <string name="contentdescription">contentdescription</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="protein_7"># Protein 7</string>
+    <string name="_1_almond">1 Almond</string>
+    <string name="auto_reject">Auto Reject</string>
+    <string name="_2_min">2 min</string>
+    <string name="at">at</string>
+    <string name="id">#id</string>
+    <string name="_0_items">0 items</string>
+    <string name="bento">Bento</string>
+    <string name="main">Main</string>
+    <string name="appetizer">Appetizer</string>
+    <string name="available">Available</string>
+    <string name="search">Search</string>
+</resources>

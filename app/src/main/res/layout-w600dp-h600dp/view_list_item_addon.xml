@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5dp">
+
+    <TextView
+        android:id="@+id/addon_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/margin_10dp"
+        android:text="x1"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/protein_7"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/addon_quantity"
+        app:layout_constraintTop_toBottomOf="@+id/addon_quantity" />
+
+    <TextView
+        android:id="@+id/almond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_almond"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/addon_quantity"
+        app:layout_constraintTop_toBottomOf="@+id/protein" />
+
+    <TextView
+        android:id="@+id/more_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More eggs"
+        android:textColor="@color/indigo_primary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/addon_quantity"
+        app:layout_constraintTop_toBottomOf="@+id/almond" />
+
+    <TextView
+        android:id="@+id/addon_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/addon_quantity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
